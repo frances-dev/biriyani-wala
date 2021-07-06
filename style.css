@@ -1,0 +1,49 @@
+/*=========Base Style========*/
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+/*========= Nav Section ========*/
+
+.nab-section {
+    height: 66px;
+    background: #FFF2E5;
+
+}
+
+img {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nab-section .logo {
+    float: left;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.nab-section .main-nav {
+    float: right;
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+
+}
+
+.main-nav a {
+    color: #9F492A;
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
