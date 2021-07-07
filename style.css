@@ -1,12 +1,27 @@
-/*=========Base Style========*/
+/*========= Base Style ========*/
 body {
-    color: #fff;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     margin: 0px;
 }
 
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recipe-container {
     display: flex;
     width: 85%;
     margin: 0 auto;
@@ -20,7 +35,7 @@ body {
     margin-bottom: 100px;
     height: 66px;
     background: #FFF2E5;
-
+    box-shadow: 0 1px 5px rgb(0 0 0 / 0.15)
 }
 
 .logo {
@@ -49,7 +64,7 @@ body {
     text-decoration: none;
 }
 
-/*=========Hero Section Style========*/
+/*========= Hero Section Style ========*/
 
 .hero-section {
     margin-top: -100px;
@@ -94,7 +109,7 @@ h4 {
     border-radius: 5px;
     background-image: linear-gradient(to right, #953F27, #F9A641);
     padding: 10px 30px;
-
+    box-shadow: 0 2px 5px rgb(0 0 0 / 0.15)
 }
 
 .hero-image {
@@ -102,3 +117,65 @@ h4 {
 }
 
 /*========= Our Recipes ========*/
+.recipe-container {
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-all-wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.recipe-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 12px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 3px 40px rgb(0 0 0 / 0.2);
+}
+
+.recipe-images {
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.recipe-para {
+    width: 300px;
+    margin-top: -10px;
+    font-weight: 300;
+}
+
+.offer-heading {
+    color: tomato;
+    text-align: center;
+}
+
+.offer-paragraph {
+    color: #676767;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+.recipe-price {
+    text-align: right;
+    margin-right: 2px;
+}
+
+.rec-texts {}
