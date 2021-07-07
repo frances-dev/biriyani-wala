@@ -6,24 +6,25 @@ body {
     margin: 0px;
 }
 
-/*========= Nav Section ========*/
-
-.nab-section {
-    height: 66px;
-    background: #FFF2E5;
-
-}
-
-img {
-    width: 150px;
-}
-
 .container {
     display: flex;
     width: 85%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+}
+
+/*========= Nav Section ========*/
+
+.nab-section {
+    margin-bottom: 100px;
+    height: 66px;
+    background: #FFF2E5;
+
+}
+
+.logo {
+    width: 150px;
 }
 
 .nab-section .logo {
@@ -49,6 +50,10 @@ img {
 }
 
 /*=========Hero Section Style========*/
+
+.hero-section {
+    margin-top: -100px;
+}
 
 .half-width {
     width: 50%;
@@ -93,5 +98,7 @@ h4 {
 }
 
 .hero-image {
-    width: 800px;
+    width: 700px;
 }
+
+/*========= Our Recipes ========*/
